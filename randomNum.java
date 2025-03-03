@@ -7,7 +7,6 @@ public class randomNum {
         Scanner sc=new Scanner(System.in);
         int randomNum=ranNum.nextInt(1,100);
         int guess;
-       // System.out.println(ranNum);
         do {
             System.out.println("Guess the number 1-100:");
             guess = sc.nextInt();
